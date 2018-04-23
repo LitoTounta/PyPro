@@ -7,4 +7,4 @@ for a in range(1,101,2):
         if d == e:
             t = t + 1
     if t == 0 :
-    print(a)
+       print(a)
