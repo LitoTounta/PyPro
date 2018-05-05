@@ -1,0 +1,24 @@
+for a in range(1,10) :
+    t = 0
+    y = input('press a number ')
+    x = int(y)
+    if x/2 == x//2 :
+        t += 1
+    if x/3 == x//3 :
+        t += 1
+    if x/5 == x//5 :
+        t +=1
+    if x/7 == x//7 :
+        t +=1
+    if x == 2 :
+        t = 0
+    if x == 3 :
+        t = 0
+    if x == 5 :
+        t = 0 
+    if x == 7 :
+        t = 0
+    if t == 0 :
+        print(y, "is a prime")
+    else :
+        print(y, "is not a prime")
