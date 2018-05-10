@@ -1,0 +1,13 @@
+x = input("press a number...")
+y = int(x)
+z = input("press a number...")
+t = int(z)
+i = 2 * y * t
+if t > y :
+    u = t
+    t = y
+    y = u
+for a in range(y,i,y) :
+    if a/t == a//t :
+        print("the least common multiple of ",y,"and ",t,"is ",a)
+        break
